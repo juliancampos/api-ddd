@@ -1,0 +1,1 @@
+module.exports = ({ body }) => Promise.resolve().then(() => (body))

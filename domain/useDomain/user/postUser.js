@@ -1,0 +1,1 @@
+module.exports = ({ body }, repository) => Promise.resolve().then(() => repository.create('user', body))

@@ -1,0 +1,1 @@
+module.exports = () => Promise.resolve().then(() => 'task domain')

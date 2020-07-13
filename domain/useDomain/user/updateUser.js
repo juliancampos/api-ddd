@@ -1,0 +1,1 @@
+module.exports = ({ params, body }, repository) => Promise.resolve().then(() => repository.update('user', body, { id: params.id }))
